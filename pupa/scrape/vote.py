@@ -2,7 +2,7 @@ from ..utils import make_pseudo_id
 from .base import BaseModel, cleanup_list, SourceMixin
 from .bill import Bill
 from .popolo import pseudo_organization
-from .schemas.vote_event import schema
+from .schemas.vote import schema
 
 
 class VoteEvent(BaseModel, SourceMixin):

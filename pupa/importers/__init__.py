@@ -5,5 +5,5 @@ from .people import PersonImporter
 from .posts import PostImporter
 from .memberships import MembershipImporter
 from .bills import BillImporter
-from .vote_events import VoteEventImporter
+from .votes import VoteEventImporter
 from .events import EventImporter
